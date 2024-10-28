@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-linter-oct28-database-config
+data:
+  VECTORDB_HOST: "test-linter-oct28-database"
+  VECTORDB_PORT: ""
